@@ -10,6 +10,25 @@ body {
   color: #0f141e;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+  /* transition: all .2s; */
+}
+
+a:hover {
+  text-decoration: underline;
+  /* font-size: 2rem; */
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
 .container {
   max-width: 750px;
   margin: auto;
@@ -33,7 +52,7 @@ body {
 }
 
 .info-text h4 {
-  margin: bottom 10px; ;
+  margin: bottom 10px;
 }
 
 .card {
@@ -42,7 +61,7 @@ body {
   margin-bottom: 10px;
 }
 
-.card h2  {
+.card h2 {
   margin-bottom: 10px;
 }
 
@@ -56,4 +75,18 @@ body {
 
 .bg-green {
   background-color: #e5ffe7;
+}
+
+.btn {
+  background-color: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: .8;
 }
