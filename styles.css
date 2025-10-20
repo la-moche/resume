@@ -6,9 +6,12 @@ body {
   line-height: 1.6em;
   font-weight: normal;
   /* font: normal 25px 'Roboto', sans-serif; */
+  background-color: #F1F1F1;
+  color: #0F141E;
 }
 
 .info-text p {
   font-style: italic;
   font-weight: bold;
+  color: #86898f;
 }
