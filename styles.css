@@ -10,14 +10,39 @@ body {
   color: #0f141e;
 }
 
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info {
+  margin-bottom: 10px;
+}
+
 .info-text p {
   font-style: italic;
   font-weight: bold;
   color: #86898f;
+  margin: 0;
+}
+
+.info-text h4 {
+  margin: bottom 10px; ;
 }
 
 .card {
   border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+}
+
+.card h2  {
   margin-bottom: 10px;
 }
 
