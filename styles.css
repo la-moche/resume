@@ -90,3 +90,37 @@ a:visited {
 .btn:hover {
   opacity: .8;
 }
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+
+.link-list {
+  list-style: none;
+
+}
+
+.link-list li {
+  margin-bottom: 10px;
+border-bottom: 1px solid #ccc;
+padding-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
