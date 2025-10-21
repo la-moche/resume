@@ -31,16 +31,36 @@ a:visited {
 
 .container {
   max-width: 750px;
-  min-width: 750px;
   margin: auto;
   padding-top: 30px;
 }
 
-.avatar {
+/* .avatar {
   width: 200px;
   border-radius: 28px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+} */
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Круглый аватар */
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .info {
   margin-bottom: 20px;
   display: flex;
@@ -167,4 +187,3 @@ a:visited {
   outline: none;
   font-family: inherit;
 }
-
