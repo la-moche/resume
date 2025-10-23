@@ -35,17 +35,20 @@ a:visited {
   padding-top: 30px;
 }
 
-/* .avatar {
-  width: 200px;
-  border-radius: 28px;
-  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-} */
-
 .avatar {
   width: 200px;
   height: auto; /* Сохраняем пропорции */
   border-radius: 28px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-left: 40px;
 }
 
 @media (max-width: 768px) {
@@ -56,16 +59,9 @@ a:visited {
   .info {
     flex-direction: column;
     align-items: center;
+    /* display: block;
+    text-align: center; */
   }
-}
-
-.info {
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.info-text {
-  margin-left: 40px;
 }
 
 .info-text p {
@@ -82,23 +78,23 @@ a:visited {
 .card {
   border-radius: 20px;
   padding: 15px 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .card h2 {
   margin-bottom: 10px;
 }
 
-.bg-yellow {
-  background-color: #fff9dc;
+.bg-hobby {
+  background-color: #e4e8ff;
 }
 
-.bg-red {
-  background-color: #ffe5e5;
+.bg-work {
+  background-color: #ede4ff;
 }
 
-.bg-green {
-  background-color: #e5ffe7;
+.bg-courses {
+  background-color: #fee3ec;
 }
 
 .btn {
@@ -152,8 +148,8 @@ a:visited {
 }
 
 .form-row {
-  margin-bottom: 10px;
   display: flex;
+  margin-bottom: 10px;
 }
 
 .form-row .form-group {
@@ -165,6 +161,21 @@ a:visited {
 
 .form-row .form-group:last-child {
   margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+    align-items: center;
+    /* display: block; */
+  }
+
+  .form-row
+  .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
 
 .form-group label {
